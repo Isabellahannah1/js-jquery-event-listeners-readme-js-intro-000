@@ -19,4 +19,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  
+  $('form').on("submit", function(){
+    //action you want taken
+});
+}
